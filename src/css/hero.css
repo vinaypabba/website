@@ -1,0 +1,159 @@
+#hero-section-wrapper {
+    background: var(--hero-section-color);
+}
+
+#hero-section {
+    margin: 64px auto 172px;
+    max-width: 956px;
+}
+
+#hero-section .main-heading {
+    color: var(--text);
+    text-align: center;
+    margin: auto;
+    font-family: inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+#hero-section .sub-heading {
+    color: var(--text);
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 16px auto 32px;
+    text-align: center;
+}
+
+#hero-section .download-links-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#hero-section .download-links-container a button {
+    width: 240px;
+    flex: 1;
+}
+
+#happy_customers {
+    text-align: center;
+    margin: 48px 0 64px;
+}
+
+#happy_customers .heading {
+    color: var(--text);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#happy_customers #rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 12px 0 16px;
+    color: var(--text);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#happy_customers #rating span {
+    color: #484848;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+#imgs-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+#imgs-container img {
+    max-width: 252px;
+    width: 30%;
+}
+
+@media (max-width: 975px) {
+    #hero-section .main-heading {
+        font-size: 56px;
+    }
+}
+
+@media (max-width: 770px) {
+    #hero-section {
+        margin: 48px 0;
+    }
+    
+    #hero-section .main-heading {
+        font-size: 48px;
+    }
+
+    #imgs-container {
+        gap: 20px;
+    }
+
+    #happy_customers {
+        margin: 48px 0 48px;
+    }    
+
+    #imgs-container img {
+        max-width: 219px;
+    }
+}
+
+@media (max-width: 575px) {
+    #hero-section {
+        margin: 32px auto;
+        padding: 0 16px;
+    }
+    
+    #hero-section .main-heading {
+        font-size: 28px;
+    }
+    
+    #hero-section .sub-heading {
+        font-size: 16px;
+    }
+    
+    #hero-section .download-links-container {
+       gap: 8px;
+    }
+    
+    #hero-section .download-links-container button {
+        width: 100%;
+        max-width: 154px;
+    }
+    
+    #happy_customers {
+        margin: 32px 0 32px;  
+    }
+    
+    #happy_customers .heading {
+        font-size: 24px;
+    }
+    
+    #happy_customers #rating {
+        font-size: 16px;
+    }
+
+    #imgs-container {
+        gap: 8px;
+    }
+
+    #imgs-container img {
+        max-width: 102px;
+    }
+}

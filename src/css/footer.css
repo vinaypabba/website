@@ -1,0 +1,220 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 108px 0;
+}
+
+#app-download-section {
+    background-color: #1BB2A9;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    padding: 108px 90px 0 108px;
+}
+
+#app-download-section .right {
+    font-size: 0;
+    max-width: 490px;
+    align-self: flex-end;
+}
+
+#app-download-section .right img {
+    width: 100%;
+}
+
+#app-download-section .left .heading {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    max-width: 675px;
+}
+
+#app-download-section .left .description {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 24px 0;
+    max-width: 536px;
+}
+
+#download-btns {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+#download-btns a {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 12px;
+    background: #FFF;
+    box-shadow: 0px 8px 64px 0px rgba(0, 0, 0, 0.04);
+}
+
+#download-btns a img {
+    width: 40px;
+}
+
+#download-btns a div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.device-name {
+    color: #484848;
+    font-family: outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.download-txt {
+    color: var(--text);
+    font-family: outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+footer .line {
+    display: flex;
+    justify-content: center;
+}
+
+#social-media {
+    gap: 40px;
+    margin: 0 0 46px;
+}
+
+#social-media img {
+    width: 40px;
+}
+
+#address {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 0 40px;
+}
+
+#address-2 {
+    color: var(--text);
+    text-align: center;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#terms {
+    gap: 56px;
+    margin-bottom: 32px;
+}
+
+#terms a {
+    color: var(--text);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media (max-width: 1146px) {
+    #app-download-section {
+        flex-direction: column-reverse;
+        gap: 64px;
+        padding: 60px 24px 0;
+    }
+    #app-download-section .right {
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 360px) {
+    footer {   
+        margin: 60px 0;
+    }
+
+    #app-download-section {
+        padding: 60px 12px 0;
+        gap: 48px;
+    }
+
+    #app-download-section .left .heading {
+        font-size: 24px;
+        max-width: 328px;
+    }
+
+    #app-download-section .left .description {
+        font-size: 18px;
+        margin: 16px 0 32px;
+        max-width: 328px;
+    }
+
+    #download-btns {
+        gap: 16px;
+    }
+    
+    #download-btns a {
+        padding: 8px 11px;
+        gap: 8;
+    }
+    
+    #download-btns a img {
+        width: 28px;
+    }
+
+    #download-btns a div {
+        gap: 1.43px;
+    }
+
+    .device-name {
+        font-size: 11px;
+    }
+
+    .download-txt {
+        font-size: 14px;
+    }
+
+    #terms {
+        gap: 12px;
+        margin-bottom: 18px;
+    }
+
+    #terms a {
+        font-size: 18px;
+    }
+
+    #address {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+
+    #address-2 {
+        font-size: 16px;
+    }
+
+    #social-media {
+        margin-bottom: 24px;
+    }
+
+    #social-media img {
+        width: 24px;
+    }
+}
